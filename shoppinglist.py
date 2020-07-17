@@ -13,7 +13,7 @@ def parse():
     parser.add_argument('-g', '--goods', nargs='*', type=str,
                         help='shopping list of goods thrue whitespace')
     parser.add_argument('-q', '--quantile', type=float, default=0.8,
-                        help='quantile factor for prabability \
+                        help='quantile factor (float) for probability \
                                 of maximum price of good')
 
     args = parser.parse_args()
